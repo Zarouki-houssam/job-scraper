@@ -883,8 +883,7 @@ def main():
                 label="⬇ Download CSV",
                 data=csv,
                 file_name='job_market_data.csv',
-                mime='text/csv'
-            )
+                mime='text/csv')
             market_overview_section(df)
 
             
